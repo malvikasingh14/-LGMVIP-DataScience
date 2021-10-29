@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-image=cv2.imread(r"C:/Users/91981/Documents/others/WIE/task1/picture.jpg")
+image=cv2.imread(r"C:/Users/91981/Documents/others/WIE/Converting_to_pencil_sketch_task1/picture.jpg")
 plt.imshow(image[:,:,::-1])
 plt.axis(False)
 plt.title("Original Image")
